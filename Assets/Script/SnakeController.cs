@@ -26,7 +26,9 @@ public class SnakeController : MonoBehaviour
         transform.position += transform.forward * MoveSpeed * Time.deltaTime;
         
         float steerDirection = Input.GetAxis("Horizontal");
+        float upDirection = Input.GetAxis("Vertical");
         transform.Rotate(Vector3.up * steerDirection * SteerSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.right * -upDirection * SteerSpeed * Time.deltaTime);
         
         PositionsHistory.Insert(0, transform.position);
         

@@ -207,7 +207,6 @@ GameObject:
   - component: {fileID: 7201640236758570736}
   - component: {fileID: 1564801743891964454}
   - component: {fileID: 1648523368}
-  - component: {fileID: 1648523369}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -312,19 +311,3 @@ MonoBehaviour:
   BodySpeed: 5
   Gap: 100
   BodyPrefab: {fileID: 3141022746028892487, guid: 9e8cbc8300b320d40b1d2f25308bb6de, type: 3}
---- !u!54 &1648523369
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9077386346267193887}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 96
-  m_CollisionDetection: 0
